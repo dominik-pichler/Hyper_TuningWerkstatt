@@ -1,0 +1,15 @@
+defaults:
+  - model: logistic_regression
+  - training: default
+
+model:
+  logistic_regression:
+    penalty: l2
+    C: 1.0
+    solver: lbfgs
+
+training:
+  dataset: iris
+  test_size: 0.2
+  random_state: 42
+
