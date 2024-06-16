@@ -1,0 +1,11 @@
+input_shape: [28, 28, 1]
+conv_layers: 
+  - filters: 32
+    kernel_size: 3
+    activation: relu
+  - filters: 64
+    kernel_size: 3
+    activation: relu
+dense_units: [128]
+output_units: 10
+

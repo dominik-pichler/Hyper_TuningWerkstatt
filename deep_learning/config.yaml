@@ -1,0 +1,17 @@
+defaults:
+  - model: simple_nn
+  - training: default
+
+model:
+  simple_nn:
+    input_shape: [784]
+    hidden_units: [128, 64]
+    output_units: 10
+    activation: relu
+
+training:
+  dataset: mnist
+  batch_size: 32
+  epochs: 10
+  learning_rate: 0.001
+
